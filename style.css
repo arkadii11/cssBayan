@@ -366,7 +366,7 @@
     ease-out;
    }
    .accordion-title:hover{
-    background-color: blueviolet;
+    background-color: rgb(177, 170, 184);
    }
    .accordion-input{
     cursor: pointer;    
