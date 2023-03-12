@@ -349,7 +349,9 @@
     font-size: 1em;
     line-height: 2;
    }
-  
+  .header{margin:0 10em;
+
+  }
    .accordion{
     margin:0 10em;
    }
@@ -357,6 +359,8 @@
     cursor: pointer;
     display: none;
     margin: 0 50%;
+    
+
    }
    .accordion-title{
     display: block;
@@ -366,7 +370,7 @@
     ease-out;
    }
    .accordion-title:hover{
-    background-color: rgb(177, 170, 184);
+    background-color: rgb(100, 98, 102);
    }
    .accordion-input{
     cursor: pointer;    
@@ -374,12 +378,34 @@
    }
    .accordion-input:checked + .accordion-text{
     display: block;
-    
+  
+   
    }
    .accordion-input:hover + .accordion-text{
     display: block;
+  
+   
    }
    .accordion-item{
     cursor: pointer; 
     border-top: 1px solid #99A;
    }
+.mem1{
+    width: 30em;
+}
+.accordion:hover{
+    color: floralwhite;
+
+}
+.icon{
+    width: 1em;
+    padding: 0 90%;
+    cursor: pointer;    
+    opacity: 0;
+}
+.accordion:hover .icon{
+    opacity: 1;
+}
+.accordion-title:checked h2{
+    color: black;
+}
