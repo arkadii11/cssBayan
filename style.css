@@ -406,6 +406,41 @@
 .accordion:hover .icon{
     opacity: 1;
 }
-.accordion-title:checked h2{
-    color: black;
-}
+@media (max-width: 320px) {
+    body {
+        background-color: rgb(179, 175, 169);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: .5em;
+        line-height: 2;}
+        .accordion-text{
+            margin: 0;
+        }
+        .mem1 {
+            width: 30em;
+        }
+        .accordion {
+            margin: 0 8em 0 2em;
+        }
+        .mem2{
+            width: 20em;
+        }
+    }
+    @media (min-width: 320px) and (max-width: 820px) {
+        body {
+            background-color: rgb(179, 175, 169);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: .75em;
+            line-height: 2;}
+            .accordion-text{
+                margin: 0;
+            }
+            .mem1 {
+                width: 30em;
+            }
+            .accordion {
+                margin: 0 5em 0 5em;
+            }
+            .mem2{
+                width: 20em;
+            }
+        }
