@@ -360,6 +360,7 @@
     display: none;
     margin: 0 50%;
     
+    
 
    }
    .accordion-title{
@@ -371,6 +372,7 @@
    }
    .accordion-title:hover{
     background-color: rgb(100, 98, 102);
+    transition: 2s;
    }
    .accordion-input{
     cursor: pointer;    
@@ -383,15 +385,17 @@
    }
    .accordion-input:hover + .accordion-text{
     display: block;
-  
+   
    
    }
    .accordion-item{
     cursor: pointer; 
     border-top: 1px solid #99A;
+ 
    }
 .mem1{
     width: 30em;
+    
 }
 .accordion:hover{
     color: floralwhite;
@@ -405,6 +409,7 @@
 }
 .accordion:hover .icon{
     opacity: 1;
+    transition: 3s;
 }
 @media (max-width: 320px) {
     body {
